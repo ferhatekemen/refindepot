@@ -102,7 +102,7 @@ body{
     margin:auto;
     padding-top:13%;
     width: 100%;
-    max-width: 1350px;
+    max-width: 1500px;
     min-width: 400px;
 }
 
@@ -130,7 +130,7 @@ body{
         display:block;
         margin:auto;
         width:100%;
-        max-width: 1350px;
+        max-width: 1500px;
     }
     
     #slidemain{
@@ -192,7 +192,7 @@ body{
 #body-content{
     display:flex;
     flex-wrap:wrap;
-    max-width: 1350px;
+    max-width: 1500px;
 }
 
 #main-content{
@@ -698,9 +698,6 @@ hr{
 
 
 
-
-
-
 @media (max-width:1100px){
 
     #body-content{
@@ -710,12 +707,12 @@ hr{
     #main-content{
         display: block;
         margin:auto;
-        width: 80%;
+        width: 90%;
         padding-left: unset;
     }
 
     #sidebar-homepage-right{
-        width: 80%;
+        width: 90%;
         display: block;
         margin: auto;    }
 
@@ -920,7 +917,7 @@ hr{
 
 #aboutus, #referenceletter, #resume, #contact1, #contact2{
     display:none;
-    max-width: 1350px;   
+    max-width: 1500px;   
 }
 
 /*#slider1, #slider2, #slider3, #slider4,*/ #intro1, #intro2, #intro3, #intro4, #refmekkoc, #hidehide, #hidehidep, #refmekolc, #accordion1, #refletilc, #accordion2,
