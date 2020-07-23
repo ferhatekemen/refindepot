@@ -25,7 +25,7 @@ body{
     text-decoration: none;
     color:#7a1632;
     font-weight: 600;
-    font-size:12px
+    font-size:1em
 }    
 
 #header img{
@@ -42,7 +42,7 @@ body{
     text-align: right;
 }
 #slogan {
-    font-size:16px;
+    font-size:1.2em;
     font-weight: 400;
     margin-top:10px
 
@@ -58,7 +58,7 @@ body{
 #nav-container{
     display: flex;
     font-weight: bold;
-    font-size:14px;
+    font-size:1.1em;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -203,7 +203,7 @@ body{
 .testimonial-title{
     background-color: #f3f3f3;
     color:#1b181c;
-    font-size: 32px;
+    font-size: 2.5em;
     font-weight: bold;
     padding:20px;
     padding-left: 18%;
@@ -221,12 +221,6 @@ body{
 
 p {
     color:#9d9d9c
-}
-
-.intro-article p{
-
-    text-align: justify;
-
 }
 
 .firstp{
@@ -302,13 +296,13 @@ p .part2 {
     color:#333333;
     padding-left: 20px;
     padding-top: 10px;
-    font-size:14px;
+    font-size:1.1em;
 }
 
 
 .title-nav-sidebar{
     color: #A42347;
-    font-size: 16px;
+    font-size: 1.2em;
     }
 
 .static-page1, #intro-principal1 {
@@ -321,7 +315,7 @@ p .part2 {
 #title-principal{
     background-color: #f3f3f3;
     padding: 10px 0px;
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: 300;
     margin-top: 50px;
     padding-left: 310px;
@@ -329,7 +323,6 @@ p .part2 {
 
 #content-principal{
     padding: 10px;
-    text-align: justify;
 }
 
 .comment-link{
@@ -365,7 +358,7 @@ p .part2 {
     display:block;
     margin:auto;
     width: 80%;
-    font-size: 14px;
+    font-size: 1.1em;
     color: black;
     margin-bottom: 150px;
 }
@@ -378,7 +371,7 @@ p .part2 {
 
 #aboutus p{
     color:black;
-    line-height: 20px;
+    line-height: 1.5;
 }
 
 #aboutus li{
@@ -416,12 +409,12 @@ p .part2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.6em
 }
 .title-event a{
     text-decoration: none;
     color: inherit;
-    font-size:32px
+    font-size:2.6em
 }
 
 #hidehide{
@@ -448,7 +441,7 @@ p .part2 {
 .event-container a{
     text-decoration: none;
     color:#1b181c;
-    font-size: 24px;
+    font-size: 2em;
 }
 
 .event-container img{
@@ -469,7 +462,7 @@ height: 45px;
     background-color: #7a1632;
     color:white;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.5em;
     padding:10px;
     height: 150px;
 }
@@ -481,7 +474,7 @@ height: 45px;
 }
 
 #hidehidep{
-    font-size:20px;
+    font-size:1.6em;
     padding: 20px;
     text-align: center;
 }
@@ -508,7 +501,7 @@ hr{
     padding: 10px;
     color:gray;
     padding:10px;
-    line-height: 20px;
+    line-height: 1.6;
 }
 
 #section2 li, #section3 li, #section4 li, #section5 li{
@@ -685,13 +678,13 @@ hr{
 #nav-footer li a{
     padding:0px 15px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 1em;
     color:white;
     text-align: center;
 }
 
 #text-copyright{
-    font-size: 12px;
+    font-size: 1em;
 
 }
 
@@ -756,7 +749,7 @@ hr{
     color: #333333;
     padding-left: unset;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 1.1em;
     text-align: center;
 }
 
@@ -796,7 +789,7 @@ hr{
    
     #nav-container a{
         display:flex;
-        font-size: 17px;
+        font-size: 1.5em;
 
     }
     
@@ -900,7 +893,7 @@ hr{
         width:94%;
         min-width: 200px;
         max-width: 300px;
-        font-size:12px;
+        font-size: 1em;
         margin:0 2%;
 
 }
