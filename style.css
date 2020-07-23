@@ -78,7 +78,7 @@ body{
 
 #nav-main li{
     list-style: none;
-    padding:8em 1.2em;
+    padding:2em 1em;
 }
 
 #nav-container a, #button-registration {
@@ -90,7 +90,7 @@ body{
 #button-registration{
     background: #A42347;
     padding:1.5em 2.5em;
-    margin-left: 12em;
+    margin-left: 3em;
 }
 
 
@@ -196,9 +196,9 @@ body{
 }
 
 #main-content{
-    width:63%;
+    width:60%;
     padding:2%;
-    padding-left: 10%;
+    padding-left: 8%;
 }
 
 .testimonial-title{
@@ -251,7 +251,7 @@ p .part2 {
 }
 
 #sidebar-homepage-right{
-    width:25%;
+    width:28%;
 }
 
 #nav-sidebar{
@@ -279,7 +279,7 @@ p .part2 {
 
 
 #nav-sidebar li a figure img{
-    width: 8em;
+    width: 7em;
     border:.25em solid #fff;
     border-radius: 8em;
     box-shadow: 0 0 0 .2em #7a1632;
@@ -317,8 +317,8 @@ p .part2 {
     padding: 1em 0em;
     font-size: 1.6em;
     font-weight: 300;
-    margin-top: 4em;
-    padding-left: 25em;
+    margin-top: 1em;
+    padding-left: 12em;
 }
 
 #content-principal{
@@ -578,7 +578,7 @@ hr{
 
 #kisiler div{
     display:flex;
-    margin:.5em;
+    margin:.1em;
 }
 
 #kisiler .kisi{
