@@ -688,21 +688,90 @@ footer{
 
 #text-copyright{
     font-size: 1em;
-
 }
 
+@media (max-width:1080px){
 
-@media (max-width:1100px){
+    #header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding:0 8em
+    }
+
+    #right-side #slogan{
+        display:none;
+    }
+  
+    #nav{
+        background-color: #A42347;
+        display: block;        
+    }
+    
+    #nav-container{
+        display: flex;
+        font-weight: bold;
+        font-size: 1.1em;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height:4em;
+        width: 100%;        
+    }
+   
+    #nav-container a{
+        display:flex;
+        font-size: 1.5em;
+    }
+    
+    #nav-main, #nav-container #button-registration{
+        display:none;
+    }
+
+    #nav-main li{
+        list-style: none;
+        padding-left: 0;    
+    }
+    
+    #nav-container a, #button-registration {
+        text-decoration: none;
+        color:white;
+    }
+    
+    #button-registration{
+        background: #A42347;
+        padding:1.5em 2.5em;
+        margin-left: 12.5em;
+    }
+
+    /*SLIDER*/
+
+    .slider-text{
+        position: absolute;
+        background-color: #7a1934 ;
+        width:10%;
+        min-width: 35em;
+        max-width: 19%;
+}
 
     #body-content{
-        flex-direction: column;
+    flex-direction: column;
     }
 
     #main-content{
-        display: block;
-        margin:auto;
-        width: 90%;
-        padding-left: unset;
+    display: block;
+    margin:auto;
+    width: 90%;
+    padding-left: unset;
+    }
+
+    .testimonial-title{
+        padding:1em;
+        padding-left:27%
+    }
+    
+    .firstp, .secondp{
+        padding:1em
     }
 
     #sidebar-homepage-right{
@@ -712,19 +781,18 @@ footer{
 
     #nav-sidebar{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding-bottom: 1.5em;
         margin-bottom: 1.5em;
-
     }
-
+ 
     #nav-sidebar li{
         width:16em;
         display: flex;
         justify-content: center;
     }
-
 
     #nav-sidebar a{
         display: flex;
@@ -744,100 +812,6 @@ footer{
     font-size: 1.1em;
     text-align: center;
 }
-
-    #right-side #slogan{
-        display:none;
-    }
-}
-
-
-
-
-@media (max-width:1080px){
-
-    #header{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding:0 8em
-    }
-
-    #nav{
-        background-color: #A42347;
-        display: block;
-        
-    }
-    
-    #nav-container{
-        display: flex;
-        font-weight: bold;
-        font-size: 1.1em;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        height:4em;
-        width: 100%;        
-    }
-   
-    #nav-container a{
-        display:flex;
-        font-size: 1.5em;
-
-    }
-    
-    #nav-main, #nav-container #button-registration{
-        display:none;
-    }
-    #nav-main li{
-        list-style: none;
-        padding-left: 0;
-        
-    }
-    
-    #nav-container a, #button-registration {
-        text-decoration: none;
-        color:white;
-    
-    }
-    
-    #button-registration{
-        background: #A42347;
-        padding:1.5em 2.5em;
-        margin-left: 12.5em;
-    }
-
-    .slider-text{
-        position: absolute;
-        background-color: #7a1934 ;
-        width:10%;
-        min-width: 35em;
-        max-width: 19%;
-
-}
-
-
-    #main-content {
-        display: block;
-        margin: 0;
-        padding:0;
-        width: 100%;
-    }
-    .testimonial-title{
-        padding:1em;
-        padding-left:27%
-    }
-    .firstp, .secondp{
-        padding:1em
-    }
-
-    #sidebar-homepage-right {
-        width: 100%;
-        padding:0;
-        margin:0;
-        display: block;
-        margin: auto;
-    }
-
 
     .static-page1, #intro-principal1 {
         width: 100%;
@@ -876,7 +850,7 @@ footer{
 }
 }
 
-@media (max-width:680px){
+/*@media (max-width:680px){
 
 
     .slider-text{
@@ -907,7 +881,7 @@ footer{
         flex-wrap: nowrap;
         margin-left: 0;
     }
-}
+}*/
 
 #aboutus, #referenceletter, #resume, #contact1, #contact2{
     display:none;
