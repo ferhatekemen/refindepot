@@ -692,14 +692,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
 @media (max-width:1100px){
 
     #body-content{
@@ -761,7 +753,7 @@ footer{
 
 
 
-@media (max-width:940px){
+@media (max-width:1080px){
 
     #header{
         display: flex;
