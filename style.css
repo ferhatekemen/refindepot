@@ -783,7 +783,7 @@ footer{
     }
 
     #sidebar-homepage-right{
-        width: 90%;
+        width: 50%;
         display: block;
         margin: auto;    }
 
@@ -817,8 +817,16 @@ footer{
     color: #333333;
     padding-left: unset;
     padding-top: 1em;
-    font-size: 1.1em;
+    font-size: 1.5em;
     text-align: center;
+}
+
+#nav-sidebar li a figure img{
+    width: 15em;
+}
+
+.title-nav-sidebar{
+    font-size: 2em;
 }
 
     .static-page1, #intro-principal1 {
