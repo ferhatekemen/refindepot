@@ -737,7 +737,7 @@ footer{
     }
 
     #nav-main li{
-        padding: 1em 0em; 
+        padding: .5em 0em; 
     }
 
     #aboutusb, #button-registration{
@@ -846,6 +846,19 @@ footer{
 .title-nav-sidebar{
     font-size: 2em;
 }
+
+#title-principal{
+    padding-left: unset;
+    text-align: center;
+}
+#yarali {
+    margin-top: unset;
+    display: block;
+    margin: auto;
+    width: 100%;
+    float:none;
+}
+
 
     .static-page1, #intro-principal1 {
         width: 100%;
