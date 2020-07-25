@@ -714,7 +714,8 @@ footer{
     }
 
     #header img{
-        width: 30em;
+        margin-top:1em;
+        width: 40vw;
     }
 
     #header a{
@@ -786,12 +787,16 @@ footer{
     /*SLIDER*/
 
     .slider-text{
-        position: absolute;
-        background-color: #7a1934 ;
         width:10%;
         min-width: 25em;
         max-width: 19%;
+        margin:.5% 0 0 2%;
+        line-height: 1.2;
 }
+
+.slider-text > p{
+font-size: 2.4vw;}
+
 
     #body-content{
     flex-direction: column;
