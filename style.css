@@ -298,7 +298,7 @@ p .part2 {
 
 
 #nav-sidebar li a figure img{
-    width: 7em;
+    width: 7vw;
     border:.25em solid #fff;
     border-radius: 8em;
     box-shadow: 0 0 0 .2em #7a1632;
@@ -312,15 +312,15 @@ p .part2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color:#333333;
     padding-left: 1.5em;
     padding-top: 1em;
+    font-size:14px;
 }
 
 
 .title-nav-sidebar{
     color: #A42347;
-    font-size: 20px;
+    font-size: 16px;
     }
 
 .static-page1, #intro-principal1 {
@@ -867,6 +867,11 @@ footer{
     text-align: center;
     font-size: 2.5vw;
 }
+
+.title-nav-sidebar{
+    font-size: 3vw;
+    }
+
 
 #nav-sidebar li a figure img{
     width: 22vw;
