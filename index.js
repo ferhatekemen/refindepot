@@ -10,9 +10,11 @@ function bodycontent(){
     document.getElementById("sidebar-homepage-right").style.display="initial";
     document.getElementById("intro-principal1").style.display="initial";
     document.getElementById("intro1").style.display="none";
-    document.getElementById("intro2").style.display="none"
-    document.getElementById("intro3").style.display="none"
-    document.getElementById("intro4").style.display="none"
+    document.getElementById("intro2").style.display="none";
+    document.getElementById("intro3").style.display="none";
+    document.getElementById("intro4").style.display="none";
+    if(opened===1){document.getElementById("nav-main").style.height="0";}
+
 }
 
 function aboutus(){
@@ -43,6 +45,8 @@ document.getElementById("referenceletter").style.display="none";
 document.getElementById("resume").style.display="block";
 document.getElementById("contact1").style.display="none";
 document.getElementById("contact2").style.display="none";
+if(opened===1){document.getElementById("nav-main").style.height="0";}
+
 }
 
 function contact(){
@@ -53,6 +57,21 @@ function contact(){
     document.getElementById("resume").style.display="none";
     document.getElementById("contact1").style.display="block";
     document.getElementById("contact2").style.display="block";
+    if(opened===1){document.getElementById("nav-main").style.height="0";}
+}
+
+
+var opened=0;
+function openmenu(){
+    event.preventDefault();
+    if(opened===0){
+        opened+=1;
+        document.getElementById("nav-main").style.height="10em";
+    }
+    else{
+        opened-=1;
+        document.getElementById("nav-main").style.height="0";
+    }
 }
 
 var count=0;
