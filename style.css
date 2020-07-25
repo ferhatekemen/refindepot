@@ -209,7 +209,7 @@ body{
     color:#1b181c;
     font-size: 2.5em;
     font-weight: bold;
-    padding:1.5em;
+    padding:.5em;
     padding-left: 18%;
     margin-left:-20%;
     display: flex;
@@ -246,11 +246,13 @@ p .part2 {
     width: 25em;
 }
 
-.quote2{
+#quote22{
     height: 4em;
     float:left;
     padding-right:0.5em
 }
+
+#quote23{display: none;}
 
 #sidebar-homepage-right{
     width:28%;
@@ -738,7 +740,7 @@ footer{
         padding: 1em 0em; 
     }
 
-    #aboutusb, #resumeb, #button-registration{
+    #aboutusb, #button-registration{
         margin-left: 0;
         display: none; 
     }
@@ -746,10 +748,10 @@ footer{
     #nav-main{
         height: 0;
         transition: 1s;
-        -webkit-transition:;
-        -moz-transition:;
-        -ms-transition:;
-        -o-transition:;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
 }
 
     /*SLIDER*/
@@ -774,8 +776,24 @@ footer{
     }
 
     .testimonial-title{
-        padding:1em;
         padding-left:27%
+    }
+
+    p .part1, p .part2{
+        width: 100%;
+        padding: 0;
+        display: block;
+        margin:auto;
+        float: none;
+        margin-bottom: 1em;
+    }
+
+    #quote22{display: none;}
+    #quote23{
+        display:unset;
+        float:left;
+        height: 4em;
+        padding-right:0.5em
     }
     
     .firstp, .secondp{

@@ -66,7 +66,7 @@ function openmenu(){
     event.preventDefault();
     if(opened===0){
         opened+=1;
-        document.getElementById("nav-main").style.height="10em";
+        document.getElementById("nav-main").style.height="13em";
     }
     else{
         opened-=1;
