@@ -703,6 +703,24 @@ footer{
         align-items: center;
     }
 
+    #header img{
+        width: 30em;
+    }
+
+    #header a{
+        font-size: 1.5em;
+    }
+
+    #right-side ul{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #right-side ul li{
+        margin:1em
+    }
+
+
     #right-side #slogan{
         display:none;
     }
@@ -855,11 +873,14 @@ footer{
     margin-top: unset;
     display: block;
     margin: auto;
-    width: 100%;
+    width: 50%;
     float:none;
 }
 
 
+.comment-link{
+    font-size: 2em;
+}
     .static-page1, #intro-principal1 {
         width: 100%;
         margin: auto;
@@ -876,11 +897,17 @@ footer{
         margin-left: 50%;
     }
  
+#footer-copyright img{
+    display: block;
+    margin:auto;
+    width: 30em
+}
+
      #nav-footer{
         display:flex;
         flex-direction: column; 
         width:100%;
-        padding-top:1.5em
+        padding-top:1.5em;
    
     }
     #nav-footer li{
@@ -890,6 +917,10 @@ footer{
         padding:.5em;
         border:none;
         padding-left: 0;   
+    }
+
+    #nav-footer li a{
+        font-size: 1.5em;
     }
     
     #text-copyright{
