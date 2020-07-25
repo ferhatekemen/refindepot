@@ -750,7 +750,7 @@ footer{
         justify-content: center;
         height:inherit;
         width: 100%;
-        font-size: 24px;
+        font-size: 3vw;
         
 }
    
@@ -870,7 +870,7 @@ footer{
 }
 
 #nav-sidebar li a figure img{
-    width: 15em;
+    width: 20vw;
 }
 
 .title-nav-sidebar{
@@ -912,7 +912,7 @@ footer{
 #footer-copyright img{
     display: block;
     margin:auto;
-    width: 30em
+    width: 40vw
 }
 
      #nav-footer{
@@ -932,7 +932,7 @@ footer{
     }
 
     #nav-footer li a{
-        font-size: 24px;
+        font-size: 3vw;
     }
     
     #text-copyright{
