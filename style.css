@@ -349,12 +349,12 @@ p .part2 {
 #nav-sidebar li a figure img{
     width: 7vw;
     border:.25rem solid #fff;
-    border-radius: 8rem;
-    box-shadow: 0 0 0 .2rem #7a1632;
-    -webkit-border-radius: 8rem;
-    -moz-border-radius: 8rem;
-    -ms-border-radius: 8rem;
-    -o-border-radius: 8rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 .4rem #7a1632;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 #nav-sidebar li a div{
@@ -828,7 +828,7 @@ footer{
         display:flex;
         padding: 1rem;
         font-weight: bold;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
   
@@ -839,7 +839,7 @@ footer{
 
     #nav-main li{
         padding: .8rem 0rem;
-        font-size: 2.2vw;
+        font-size: 2.7vw;
     }
 
     #button-registration{
@@ -880,7 +880,7 @@ font-size: 2.5vw;}
     display:block;
     width: 100%;
     height: 100%;
-    padding-top:15%;
+    padding-top:20vh;
     background: transparent;
 }
 
@@ -889,15 +889,15 @@ font-size: 2.5vw;}
     margin:auto;
     width:60%;
     left: 20%;
-    border-top: 4rem solid #7a1934;
-    border-bottom: 4rem solid #7a1934;
+    border-top: 6rem solid #7a1934;
+    border-bottom: 6rem solid #7a1934;
 }
 
 .popup h3{
     text-align: center;
     color:white;
-    margin-top:-1.5rem;
-    margin-bottom: .4rem;
+    margin-top:-5vw;
+    margin-bottom: 1.5vw;
     padding:0;
     font-size: 3vw;
 }
@@ -906,7 +906,7 @@ font-size: 2.5vw;}
     padding: 1em;
     background-color: white;
     color:black;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
 }
 
 .pop7 {
@@ -970,9 +970,10 @@ font-size: 2.5vw;}
     }
  
     #nav-sidebar li{
-        width:16rem;
+        width:100%;
         display: flex;
         justify-content: center;
+        margin:1rem auto
     }
 
     #nav-sidebar a{
