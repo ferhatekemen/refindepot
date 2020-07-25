@@ -434,7 +434,7 @@ p .part2 {
 .yarali {
     margin-top: -8rem;
     float:left;
-    margin-left: 80rem;
+    margin-left: 8rem;
     width: 30.3rem;
     margin-right: 3rem;
 }
@@ -1019,7 +1019,7 @@ font-size: 2.5vw;}
 
 
 #content-principal > p{
-    padding: 4.rem;
+    padding: 4rem;
     font-size: 2vw;
     line-height: 1.5;
 }
