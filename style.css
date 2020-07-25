@@ -24,7 +24,7 @@ body{
     align-items: center;
     background-color: #f3f3f3;
     height: 11rem;
-    max-width:120rem;
+    max-width:150rem;
     padding: 0 10rem;
     }
 
@@ -109,7 +109,7 @@ body{
     margin:auto;
     padding-top:13%;
     width: 100%;
-    max-width: 120rem;
+    max-width: 150rem;
     min-width: 35rem;
 }
 
@@ -137,7 +137,7 @@ body{
         display:block;
         margin:auto;
         width:100%;
-        max-width: 120rem;
+        max-width: 150rem;
     }
     
     #slidemain{
@@ -258,7 +258,7 @@ body{
 #body-content{
     display:flex;
     flex-wrap:wrap;
-    max-width: 120rem;
+    max-width: 150rem;
 }
 
 #main-content{
@@ -272,7 +272,7 @@ body{
     color:#1b181c;
     font-size: 32px;
     font-weight: bold;
-    padding:.5rem;
+    padding:1rem;
     padding-left: 18%;
     margin-left:-20%;
     display: flex;
@@ -286,12 +286,13 @@ body{
 }
 
 p {
-    color:#9d9d9c
+    color:#9d9d9c;
+    line-height: 1.5;
 }
 
 .firstp{
     display: block;
-    margin-bottom: 2.5rem;
+    margin: 2.5rem auto;
 }
 
 .secondp{
@@ -712,8 +713,9 @@ hr{
 #blur-top{
     display: flex;
     justify-content: flex-end;
-    margin-top:-1.5rem;
-    margin-right: 1rem;
+    margin-top:-3rem;
+    padding: 2rem;
+    margin-right: 20%;
 }
 
 #blur-top a{
@@ -1041,14 +1043,14 @@ font-size: 2.5vw;}
     float:none;
     display: block;
     margin: auto;
-    width: 50%;
+    width: 75%;
     padding-right: unset;
 }
 
 
 
 .comment-link{
-    font-size: 2rem;
+    font-size: 3vw;
 }
     .static-page1, #intro-principal1 {
         width: 100%;
@@ -1065,6 +1067,12 @@ font-size: 2.5vw;}
     #kisiler .bilgi{
         margin-left: 50%;
     }
+
+    
+    #blur-top a{
+        font-size: 3vw;  
+    }
+    
  
 #footer-copyright img{
     display: block;
@@ -1083,7 +1091,7 @@ font-size: 2.5vw;}
         display:flex;
         flex-direction: column; 
         width:100%;
-        padding:.5rem;
+        padding:1rem 0;
         border:none;
         padding-left: 0;   
     }
@@ -1094,45 +1102,13 @@ font-size: 2.5vw;}
     
     #text-copyright{
     text-align: center;
+    font-size: 2vw;
 }
 }
-
-/*@media (max-width:680px){
-
-
-    .slider-text{
-        position: absolute;
-        background-color: #7a1934 ;
-        width:94%;
-        min-width: 16em;
-        max-width: 25em;
-        font-size: 1em;
-        margin:0 2%;
-
-}
-
-    #kisiler{
-        padding:1.5em 0 0 1.5em;
-    }
-
-    #kisiler div{
-        display:flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding:0
-    }
-
-    #kisiler .bilgi{
-        position:relative;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        margin-left: 0;
-    }
-}*/
 
 #aboutus, #referenceletter, #resume, #contact1, #contact2{
     display:none;
-    max-width: 120rem;   
+    max-width: 150rem;   
 }
 
 #popups, #pop1, #pop2, #pop3,#pop4,#pop5,#pop6, #pop7, #intro1, #intro2, #intro3, #intro4, #refmekkoc, #hidehide, #hidehidep, #refmekolc, #accordion1, #refletilc, #accordion2,
