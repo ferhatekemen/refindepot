@@ -828,6 +828,7 @@ footer{
         display:flex;
         padding: 1rem;
         font-weight: bold;
+        font-size: 2.5vw;
     }
 
   
@@ -837,7 +838,8 @@ footer{
     }
 
     #nav-main li{
-        padding: .5rem 0rem; 
+        padding: .8rem 0rem;
+        font-size: 2.2vw;
     }
 
     #button-registration{

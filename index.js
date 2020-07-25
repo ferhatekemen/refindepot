@@ -80,7 +80,7 @@ function openmenu(){
     if(opened===0){
         opened+=1;
         document.getElementById("nav-main").style.visibility="visible";
-        document.getElementById("nav-main").style.height="12em";
+        document.getElementById("nav-main").style.height="22rem";
     }
     else{
         opened-=1;
