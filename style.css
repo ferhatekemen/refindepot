@@ -149,11 +149,27 @@ body{
        position:relative;
        width: 500%;
        right: 0;
+       animation: slide 15s infinite;
        transition: 1s;
        -webkit-transition: 1s;
        -moz-transition: 1s;
        -ms-transition: 1s;
        -o-transition: 1s;
+       -webkit-animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    0% {right:0%}
+    15%{right:0%}
+    20% {right:100%}
+    35% {right:100%}
+    40% {right:200%}
+    55% {right:200%}
+    60% {right:300%}
+    75% {right:300%}
+    80% {right:400%}
+    95% {right:400%}
+    100% {right:0%}
 }
 
     .divslider > img{
