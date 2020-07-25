@@ -783,20 +783,23 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 16rem;
     }
 
     #header img{
-        margin-top:1rem;
+        margin-top:3rem;
         width: 40vw;
     }
 
     #header a{
-        font-size: 1.5rem;
+        font-size: 2vw;
+        padding: 0 1rem;
     }
 
     #right-side ul{
         display: flex;
         flex-wrap: nowrap;
+        padding: 2rem;
     }
 
     #right-side ul li{
@@ -994,16 +997,16 @@ font-size: 2.5vw;}
     padding-left: unset;
     padding-top: 1rem;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 
 .title-nav-sidebar{
-    font-size: 3vw;
+    font-size: 4vw;
     }
 
 
 #nav-sidebar li a figure img{
-    width: 22vw;
+    width: 25vw;
 }
 
 
@@ -1077,7 +1080,8 @@ font-size: 2.5vw;}
 #footer-copyright img{
     display: block;
     margin:auto;
-    width: 40vw
+    width: 40vw;
+    padding-top: 2rem;
 }
 
      #nav-footer{
