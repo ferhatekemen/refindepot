@@ -174,7 +174,14 @@ function openp6(){
 
  function closepop(){
     event.preventDefault();
-    document.getElementById("popups").style.display="none";     
+    document.getElementById("popups").style.display="none";
+    document.getElementById("pop1").style.display="none";
+    document.getElementById("pop2").style.display="none";
+    document.getElementById("pop3").style.display="none";
+    document.getElementById("pop4").style.display="none";
+    document.getElementById("pop5").style.display="none";
+    document.getElementById("pop6").style.display="none";
+
  }
 
 function academy(){
