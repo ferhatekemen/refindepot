@@ -12,7 +12,6 @@ body{
     margin:auto;
     max-width: 100%;
     min-width: 32em;
-    font-size:1em;
 }
 
 #header{
@@ -664,7 +663,7 @@ footer{
     background-color: #7a1632;
     color:white;
     height: auto;
-    padding:1em 15em;
+    padding:1em;
     display:block;
     text-align: center;
     position: relative;
@@ -706,10 +705,6 @@ footer{
     text-align: center;
 }
 
-#text-copyright{
-    font-size: 1em;
-}
-
 @media screen and (max-width:1080px){
 
     #header{
@@ -749,19 +744,20 @@ footer{
     #nav-container{
         display: flex;
         flex-direction: column;
-        font-weight: bold;
+        font-weight: normal;
         align-items: center;
         text-align: center;
         justify-content: center;
         height:inherit;
         width: 100%;
-        font-size: 2em;
+        font-size: 24px;
         
 }
    
     #mobilmenu{
         display:flex;
         padding: 1em;
+        font-weight: bold;
     }
 
   
@@ -878,7 +874,7 @@ footer{
 }
 
 .title-nav-sidebar{
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 #title-principal{
@@ -936,7 +932,7 @@ footer{
     }
 
     #nav-footer li a{
-        font-size: 1.5em;
+        font-size: 24px;
     }
     
     #text-copyright{
