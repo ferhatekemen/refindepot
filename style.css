@@ -719,6 +719,7 @@ footer{
         justify-content: center;
         height:inherit;
         width: 100%;
+        font-size: 2em;
         
 }
    
@@ -745,10 +746,10 @@ footer{
     #nav-main{
         height: 0;
         transition: 1s;
-        -webkit-transition: 1s;
-        -moz-transition: 1s;
-        -ms-transition: 1s;
-        -o-transition: 1s;
+        -webkit-transition:;
+        -moz-transition:;
+        -ms-transition:;
+        -o-transition:;
 }
 
     /*SLIDER*/
