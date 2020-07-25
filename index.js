@@ -27,6 +27,9 @@ function aboutus(){
     document.getElementById("resume").style.display="none";
     document.getElementById("contact1").style.display="none";
     document.getElementById("contact2").style.display="none";
+    if(opened===1){document.getElementById("nav-main").style.height="0";
+    document.getElementById("nav-main").style.visibility="hidden";
+    }
     }
 
 function referenceletter(){
@@ -58,6 +61,7 @@ document.getElementById("nav-main").style.visibility="hidden";
 
 function contact(){
     document.getElementById("sliders").style.display="none";
+    document.getElementById("popups").style.display="none";
     document.getElementById("body-content").style.display="none";
     document.getElementById("aboutus").style.display="none";
     document.getElementById("referenceletter").style.display="none";
@@ -76,7 +80,7 @@ function openmenu(){
     if(opened===0){
         opened+=1;
         document.getElementById("nav-main").style.visibility="visible";
-        document.getElementById("nav-main").style.height="9em";
+        document.getElementById("nav-main").style.height="12em";
     }
     else{
         opened-=1;
@@ -121,6 +125,57 @@ function sprev(){
         document.getElementById("slidepanel").style.right="0%";
     }
     }
+
+
+ function openp1(){
+     event.preventDefault();
+     document.getElementById("popups").style.display="block";
+     document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
+     document.getElementById("pop1").style.display="block";
+ }
+
+ function openp2(){
+    event.preventDefault();
+    document.getElementById("popups").style.display="block";
+    document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
+    document.getElementById("pop2").style.display="block";
+}
+
+function openp3(){
+    event.preventDefault();
+    document.getElementById("popups").style.display="block";
+    document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
+    document.getElementById("pop3").style.display="block";
+}
+
+
+function openp4(){
+    event.preventDefault();
+    document.getElementById("popups").style.display="block";
+    document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
+    document.getElementById("pop4").style.display="block";
+}
+
+
+function openp5(){
+    event.preventDefault();
+    document.getElementById("popups").style.display="block";
+    document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
+    document.getElementById("pop5").style.display="block";
+}
+
+function openp6(){
+    event.preventDefault();
+    document.getElementById("popups").style.display="block";
+    document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
+    document.getElementById("pop6").style.display="block";
+}
+
+
+ function closepop(){
+    event.preventDefault();
+    document.getElementById("popups").style.display="none";     
+ }
 
 function academy(){
     document.getElementById("sliders").style.display="none";
