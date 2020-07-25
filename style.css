@@ -315,13 +315,12 @@ p .part2 {
     color:#333333;
     padding-left: 1.5em;
     padding-top: 1em;
-    font-size:1.1em;
 }
 
 
 .title-nav-sidebar{
     color: #A42347;
-    font-size: 1.2em;
+    font-size: 20px;
     }
 
 .static-page1, #intro-principal1 {
@@ -865,17 +864,14 @@ footer{
     color: #333333;
     padding-left: unset;
     padding-top: 1em;
-    font-size: 1.5em;
     text-align: center;
+    font-size: 2.5vw;
 }
 
 #nav-sidebar li a figure img{
-    width: 20vw;
+    width: 22vw;
 }
 
-.title-nav-sidebar{
-    font-size: 1.2em;
-}
 
 #title-principal{
     padding-left: unset;
