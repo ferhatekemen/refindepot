@@ -31,8 +31,8 @@ body{
 #header a {
     text-decoration: none;
     color:#7a1632;
-    font-weight: 600;
-    font-size:1rem
+    font-weight: 6  00;
+    font-size:1.4rem
 }    
 
 #header img{
@@ -43,22 +43,22 @@ body{
 
 #header  li {
     list-style: none;
+    padding: .3rem 0;
 }
 
 #right-side{
     text-align: right;
 }
+
 #slogan {
-    font-size:1.2rem;
+    font-size:1.6rem;
     font-weight: 400;
     margin-top:1rem
 }
 
-
 #nav{
     background:#62462D ;
     display: block;
-    
 }
 
 #nav-container{
@@ -185,9 +185,9 @@ body{
     .slider-text{
         position: absolute;
         background-color: #7a1934 ;
-        width:40%;
+        width:45%;
         min-width: 25rem;
-        max-width: 35rem;
+        max-width: 60rem;
         margin:1.2% 0 0 2%;
         padding:1em;
         opacity: 0.9;
@@ -348,7 +348,7 @@ p .part2 {
 
 
 #nav-sidebar li a figure img{
-    width: 7vw;
+    width: 6vw;
     border:.25rem solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 .4rem #7a1632;
@@ -376,6 +376,8 @@ p .part2 {
 #intro-principal1 {
         margin: auto;
         padding:0;
+        width: 80%;
+        max-width: 150rem;
     }
 
 
@@ -433,7 +435,7 @@ p .part2 {
 }
 
 .yarali {
-    margin-top: -8rem;
+    margin-top: -7rem;
     float:left;
     margin-left: 8rem;
     width: 30.3rem;
@@ -447,7 +449,7 @@ p .part2 {
     display:block;
     margin:auto;
     width: 80%;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: black;
     margin-bottom: 12rem;
 }
@@ -494,16 +496,15 @@ p .part2 {
 }
 
 .title-event{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.6rem
+    font-size: 2rem;
+    padding: 1rem;
 }
 .title-event a{
     text-decoration: none;
     color: inherit;
-    font-size:2.6rem
 }
 
 #hidehide{
@@ -572,7 +573,6 @@ height: 4rem;
     background-color: #7a1934;
     margin:1.5rem 0;
     color:white;
-    padding: 0 1rem;
 }
 
 #section1 h4, #section4 h4{
@@ -587,8 +587,7 @@ hr{
 #section2, #section3, #section5{
     background-color: #f0f0f0;
     margin:1.5rem 0;
-    color:gray;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 #section2 li, #section3 li, #section4 li, #section5 li{
@@ -695,7 +694,7 @@ hr{
 }
 
 .altbilgi{
-    margin: 1.5rem 0;
+    margin: 2.5rem 0;
 }
 
 .altbilgi h2{
@@ -713,16 +712,16 @@ hr{
 #blur-top{
     display: flex;
     justify-content: flex-end;
-    margin-top:-3rem;
+    margin-top:-6.5rem;
     padding: 2rem;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 #blur-top a{
     text-decoration: none;
     color:#7a1632;
     font-weight: bold;
-
+    font-size: 1.4rem;
 }
 
 footer{
@@ -1061,19 +1060,38 @@ font-size: 2.5vw;}
         padding:0;
     }
 
+
+    #referenceletter, #resume{
+        display: block;
+        margin:auto;
+        width: 90%;
+        padding:auto 0;
+    }
+    
+
     #contact1, #contact2{
         display:block;
         margin:auto;
         width:95%
     }
 
+
+    #kisiler{
+        font-size: 2vw;
+        margin:1rem auto;
+
+    }
+
     #kisiler .bilgi{
         margin-left: 50%;
     }
 
+    .altbilgi {
+        font-size: 2vw;
+    }
     
     #blur-top a{
-        font-size: 3vw;  
+        font-size: 2vw;  
     }
     
  
