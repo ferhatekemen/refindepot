@@ -75,19 +75,27 @@ function contact(){
 
 
 var opened=0;
-function openmenu(){
-    event.preventDefault();
-    if(opened===0){
-        opened+=1;
-        document.getElementById("nav-main").style.visibility="visible";
-        document.getElementById("nav-main").style.height="27vw";
+
+function openmenu1(){
+        event.preventDefault();
+        if(opened===0){
+            opened+=1;
+            document.getElementById("nav-main").style.visibility="visible";
+            document.getElementById("nav-main").style.height="27vw";
+        }
+        else{
+            opened-=1;
+            document.getElementById("nav-main").style.visibility="hidden";
+            document.getElementById("nav-main").style.height="0";
+            }
     }
-    else{
-        opened-=1;
-        document.getElementById("nav-main").style.height="0";
-        document.getElementById("nav-main").style.visibility="hidden";
-    }
-}
+    
+    function openmenu(){
+        if(opened===0){
+            document.getElementById("nav-main").style.visibility="hidden";
+            document.getElementById("nav-main").style.height="0";
+        }
+    }    
 
 var count=0;
 function snext(){
