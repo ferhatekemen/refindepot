@@ -853,6 +853,7 @@ footer{
 
     #nav-main{
         height: 0;
+        visibility: hidden;
         transition: 1s;
         -webkit-transition: 1s;
         -moz-transition: 1s;

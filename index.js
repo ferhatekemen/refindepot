@@ -90,12 +90,6 @@ function openmenu1(){
             }
     }
     
-    function openmenu(){
-        if(opened===0){
-            document.getElementById("nav-main").style.visibility="hidden";
-            document.getElementById("nav-main").style.height="0";
-        }
-    }    
 
 var count=0;
 function snext(){
