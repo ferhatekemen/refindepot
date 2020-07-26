@@ -712,7 +712,7 @@ hr{
 #blur-top{
     display: flex;
     justify-content: flex-end;
-    margin-top:-6.5rem;
+    margin-top:-1rem;
     padding: 2rem;
     margin-right: 10%;
 }
@@ -1129,11 +1129,10 @@ font-size: 2.5vw;}
 }
 
 #aboutus, #referenceletter, #resume, #contact1, #contact2{
-    display:none;
     max-width: 150rem;   
 }
 
-#popups, #pop1, #pop2, #pop3,#pop4,#pop5,#pop6, #pop7, #intro1, #intro2, #intro3, #intro4, #refmekkoc, #hidehide, #hidehidep, #refmekolc, #accordion1, #refletilc, #accordion2,
+#popups, #pop1, #pop2, #pop3,#pop4,#pop5,#pop6, #pop7, #refmekkoc, #hidehide, #hidehidep, #refmekolc, #accordion1, #refletilc, #accordion2,
 #ozharefc, #accordion3, #cvilec,
 #accordion4, #ozsuc, #accordion5 {
     display:none
