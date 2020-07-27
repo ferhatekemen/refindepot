@@ -505,7 +505,7 @@ p .part2 {
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
-    padding: 1rem 2rem;
+    padding: 2rem;
 }
 .title-event a{
     text-decoration: none;
@@ -1127,7 +1127,7 @@ font-size: 2.5vw;}
 .event-container a{
     text-decoration: none;
     color:#1b181c;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 .event-container img{
@@ -1139,8 +1139,9 @@ font-size: 2.5vw;}
 
 .event-container p{
 text-align: center;
-height: 6rem;
-font-size: 2.5vw;
+height: unset;
+font-size: 3vw;
+padding: 1rem 0;
 }
 
 .panel-event-info{
@@ -1148,7 +1149,7 @@ font-size: 2.5vw;
     background-color: #7a1632;
     color:white;
     width: 100%;
-    font-size: 2.5vw;
+    font-size: 3vw;
     padding:0;
     height: auto;
 }
@@ -1160,13 +1161,14 @@ font-size: 2.5vw;
     
 
     .title-event{
-        font-size:3vw;
+        font-size:4vw;
     }
 
 
 
     .content-event h4{
         font-size: 2vw;
+        font-weight: normal;
     }
 
     #contact1, #contact2{
@@ -1213,7 +1215,7 @@ font-size: 2.5vw;
         display:flex;
         flex-direction: column; 
         width:100%;
-        padding:1rem 0;
+        padding:2rem 0;
         border:none;
         padding-left: 0;   
     }
