@@ -300,3 +300,38 @@ function ozsuc(){
     document.getElementById("ozsuc").style.display="none";
     event.preventDefault();
 }
+
+
+function editing1(){
+    document.getElementById("reso11").style.display="none";
+    document.getElementById("reso111").style.display="initial"
+
+}
+
+function editing1c(){
+    document.getElementById("reso111").style.display="none";
+    document.getElementById("reso11").style.display="initial";
+}
+
+function editing2(){
+    document.getElementById("reso222").style.display="initial";
+    document.getElementById("reso22").style.display="none";
+}
+
+function editing2c(){
+    document.getElementById("reso22").style.display="initial";
+    document.getElementById("reso222").style.display="none";
+
+}
+
+function editing3(){
+    document.getElementById("reso33").style.display="none";
+    document.getElementById("reso333").style.display="initial";
+
+}
+
+function editing3c(){
+    document.getElementById("reso33").style.display="initial";
+    document.getElementById("reso333").style.display="none"
+
+}
