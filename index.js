@@ -1,4 +1,4 @@
-function bodycontent(){
+/*function bodycontent(){
     document.getElementById("sliders").style.display="initial";
     document.getElementById("body-content").style.display="flex";
     document.getElementById("aboutus").style.display="none";
@@ -71,7 +71,7 @@ function contact(){
     if(opened===1){document.getElementById("nav-main").style.height="0";
     document.getElementById("nav-main").style.visibility="hidden";
 }
-}
+}*/
 
 
 var opened=0;
@@ -105,28 +105,41 @@ else if(count===2){
     count+=1;
     document.getElementById("slidepanel").style.right="300%";
 }
-else {
+
+else if(count===3){
+    count+=1;
     document.getElementById("slidepanel").style.right="400%";
+}
+
+else {
+    count=0;
+    document.getElementById("slidepanel").style.right="0%";
 }
 }
 
 function sprev(){
-    if(count===3){
+    if(count===4){
         count-=1;
         document.getElementById("slidepanel").style.right="300%";
     }
-    else if(count===2){
+
+    else if(count===3){
         count-=1;
         document.getElementById("slidepanel").style.right="200%";
     }
-    else if(count===1){
+    else if(count===2){
         count-=1;
         document.getElementById("slidepanel").style.right="100%";
     }
     else {
+        count=0;
         document.getElementById("slidepanel").style.right="0%";
     }
     }
+
+    (function cc() {
+        setInterval(snext, 4000)
+    })();
 
 
  function openp1(){
@@ -149,7 +162,6 @@ function openp3(){
     document.getElementById("popups").style.background="rgba(255, 255, 255, .8)";
     document.getElementById("pop3").style.display="block";
 }
-
 
 function openp4(){
     event.preventDefault();
@@ -186,7 +198,7 @@ function openp6(){
 
  }
 
-function academy(){
+/*function academy(){
     document.getElementById("sliders").style.display="none";
     document.getElementById("aboutus").style.display="none";
     document.getElementById("referenceletter").style.display="none";
@@ -201,7 +213,7 @@ function academy(){
     document.getElementById("intro3").style.display="initial"
     document.getElementById("intro4").style.display="initial"
 }
-
+*/
 function refmekko(){
     document.getElementById("hidehide").style.display="flex";
     document.getElementById("hidehidep").style.display="block";
