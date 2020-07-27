@@ -286,7 +286,7 @@ body{
 }
 
 p {
-    color:#9d9d9c;
+/*    color:#9d9d9c;*/
     line-height: 1.5;
 }
 
@@ -388,7 +388,7 @@ p .part2 {
     
 
 #title-principal{
-    background-color: #f3f3f3;
+    background-color: #f3f3 f3;
     padding: 1.4rem 0;
     font-size: 2rem;
     font-weight: 300;
@@ -493,6 +493,11 @@ p .part2 {
 
 #triangle{
     background-color:#f0f0f0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .title-event{
@@ -500,11 +505,12 @@ p .part2 {
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 .title-event a{
     text-decoration: none;
     color: inherit;
+    padding: 1rem;
 }
 
 #hidehide{
@@ -537,13 +543,14 @@ p .part2 {
 .event-container img{
     display: block;
     margin:auto;
-    width:25rem
+    width:25rem;
 }
 
 
 .event-container p{
 text-align: center;
-height: 4rem;
+height: 5rem;
+font-size: 1.5rem;
 }
 
 
@@ -573,14 +580,25 @@ height: 4rem;
     background-color: #7a1934;
     margin:1.5rem 0;
     color:white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 #section1 h4, #section4 h4{
-    margin:1rem
+    margin:1rem;
+    padding: 1rem;
+}
+
+#section1 h5, #section4 h5{
+
+    padding: 1rem 3rem;
 }
 
 hr{
-    margin: 1rem 0;
+    margin: .5rem 0;
     width:100%
 }
 
@@ -588,11 +606,24 @@ hr{
     background-color: #f0f0f0;
     margin:1.5rem 0;
     line-height: 1.5;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 #section2 li, #section3 li, #section4 li, #section5 li{
     margin-left: 1.5rem;
     padding: .5rem;
+}
+
+.content-event{
+    padding: 2rem;
+}
+
+.content-event > p, .content-event > ul, .content-event > ol{
+    padding: 2rem;
 }
 
 /*RESUME*/
@@ -609,7 +640,8 @@ hr{
 
 #section4 p {
     color:white;
-    padding:1rem
+    padding:2rem;
+    line-height: 1.5;
 }
 
 
@@ -1069,6 +1101,73 @@ font-size: 2.5vw;}
         padding:auto 0;
     }
     
+    #hidehide{
+        display:flex;
+        flex-wrap: unset;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event-container{
+        display: flex;
+        flex-wrap: unset;
+        flex-direction: column;
+        width:80%;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+    
+    
+.event-container h4{
+    padding: .5rem 0;
+}
+
+.event-container a{
+    text-decoration: none;
+    color:#1b181c;
+    font-size: 3vw;
+}
+
+.event-container img{
+    display: block;
+    margin:auto;
+    width:100%;
+}
+
+
+.event-container p{
+text-align: center;
+height: 6rem;
+font-size: 2.5vw;
+}
+
+.panel-event-info{
+    min-height: 8rem;
+    background-color: #7a1632;
+    color:white;
+    width: 100%;
+    font-size: 2.5vw;
+    padding:0;
+    height: auto;
+}
+
+
+.panel-event-info > ul{
+    padding:1rem;
+}
+    
+
+    .title-event{
+        font-size:3vw;
+    }
+
+
+
+    .content-event h4{
+        font-size: 2vw;
+    }
 
     #contact1, #contact2{
         display:block;
