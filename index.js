@@ -321,7 +321,6 @@ function editing2(){
 function editing2c(){
     document.getElementById("reso22").style.display="initial";
     document.getElementById("reso222").style.display="none";
-
 }
 
 function editing3(){
