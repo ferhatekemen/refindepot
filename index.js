@@ -81,7 +81,7 @@ function openmenu1(){
         if(opened===0){
             opened+=1;
             document.getElementById("nav-main").style.visibility="visible";
-            document.getElementById("nav-main").style.height="27vw";
+            document.getElementById("nav-main").style.height="34vw";
         }
         else{
             opened-=1;

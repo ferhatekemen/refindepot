@@ -234,8 +234,8 @@ body{
 .popup h3{
     text-align: center;
     color:white;
-    margin-top:-1.5rem;
-    margin-bottom: .4rem;
+    margin-top:-3.2rem;
+    margin-bottom: 1rem;
     padding:0;
     font-size: 2rem;
 }
@@ -250,8 +250,10 @@ body{
 
 .pop7 {
    float: right;
-   padding-right: 1rem;
+   margin-right: 2rem;
+   margin-top: -.8rem;
    cursor: pointer;
+   font-size: 3rem;
 }
 
 
@@ -288,6 +290,7 @@ body{
 p {
 /*    color:#9d9d9c;*/
     line-height: 1.5;
+    color:black
 }
 
 .firstp{
@@ -523,7 +526,7 @@ p .part2 {
 .event-container{
     display: flex;
     flex-wrap: wrap;
-    width:25rem;
+    width:30rem;
     justify-content: center;
     background-color: #dddddd;
     align-items: flex-start;
@@ -531,19 +534,26 @@ p .part2 {
 }
 
 .event-container h4{
-    padding: .5rem 0;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 .event-container a{
     text-decoration: none;
     color:#1b181c;
     font-size: 2rem;
+    text-align: center;
 }
 
 .event-container img{
     display: block;
     margin:auto;
-    width:25rem;
+    width:30rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 
@@ -615,8 +625,8 @@ hr{
 }
 
 #section2 li, #section3 li, #section4 li, #section5 li{
-    margin-left: 1.5rem;
-    padding: .5rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
 }
 
 .content-event{
@@ -867,7 +877,7 @@ footer{
         display:flex;
         padding: 1rem;
         font-weight: bold;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
   
@@ -877,8 +887,8 @@ footer{
     }
 
     #nav-main li{
-        padding: .8rem 0rem;
-        font-size: 2.7vw;
+        padding: 1.5rem 0;
+        font-size: 3.2vw;
     }
 
     #button-registration{
@@ -946,18 +956,16 @@ font-size: 2.5vw;}
     padding: 1em;
     background-color: white;
     color:black;
-    font-size: 2.7vw;
+    font-size: 3vw;
 }
 
 .pop7 {
-   float: right;
-   padding-right: 1rem;
-   cursor: pointer;
-}
-
-
-
-
+    float: right;
+    margin-right: 2rem;
+    margin-top: -.5rem;
+     cursor: pointer;
+    font-size: 3rem;}
+ 
 
     #body-content{
     flex-direction: column;
@@ -1121,11 +1129,6 @@ font-size: 2.5vw;}
         align-items: center;
         margin: 1rem;
     }
-    
-    
-.event-container h4{
-    padding: .5rem 0;
-}
 
 .event-container a{
     text-decoration: none;
@@ -1195,7 +1198,7 @@ padding: 1rem 0;
     }
     
     #blur-top a{
-        font-size: 2vw;  
+        font-size: 2.5vw;  
     }
     
  
