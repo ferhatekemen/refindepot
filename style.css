@@ -20,11 +20,16 @@ body{
     height: 100vh;
 }
 
+#head {
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #f3f3f3;}
+
 #header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f3f3f3;
     height: 11rem;
     max-width:180rem;
     padding: 0 10rem;
@@ -708,7 +713,7 @@ hr{
     flex-wrap: nowrap;
     align-items: center;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 60rem;
     margin-top: .5rem;
 }
 
