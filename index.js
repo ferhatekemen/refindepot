@@ -1,79 +1,3 @@
-/*function bodycontent(){
-    document.getElementById("sliders").style.display="initial";
-    document.getElementById("body-content").style.display="flex";
-    document.getElementById("aboutus").style.display="none";
-    document.getElementById("referenceletter").style.display="none";
-    document.getElementById("resume").style.display="none";
-    document.getElementById("contact1").style.display="none";
-    document.getElementById("contact2").style.display="none";
-    document.getElementById("main-content").style.display="initial";
-    document.getElementById("sidebar-homepage-right").style.display="initial";
-    document.getElementById("intro-principal1").style.display="initial";
-    document.getElementById("intro1").style.display="none";
-    document.getElementById("intro2").style.display="none";
-    document.getElementById("intro3").style.display="none";
-    document.getElementById("intro4").style.display="none";
-    if(opened===1){document.getElementById("nav-main").style.height="0";
-    document.getElementById("nav-main").style.visibility="hidden";
-}
-
-}
-
-function aboutus(){
-    document.getElementById("sliders").style.display="none";
-    document.getElementById("body-content").style.display="none";
-    document.getElementById("aboutus").style.display="block";
-    document.getElementById("referenceletter").style.display="none";
-    document.getElementById("resume").style.display="none";
-    document.getElementById("contact1").style.display="none";
-    document.getElementById("contact2").style.display="none";
-    if(opened===1){document.getElementById("nav-main").style.height="0";
-    document.getElementById("nav-main").style.visibility="hidden";
-    }
-    }
-
-function referenceletter(){
-document.getElementById("sliders").style.display="none";
-document.getElementById("body-content").style.display="none";
-document.getElementById("aboutus").style.display="none";
-document.getElementById("referenceletter").style.display="block";
-document.getElementById("resume").style.display="none";
-document.getElementById("contact1").style.display="none";
-document.getElementById("contact2").style.display="none";
-if(opened===1){document.getElementById("nav-main").style.height="0";
-document.getElementById("nav-main").style.visibility="hidden";
-}
-}
-
-function resume(){
-document.getElementById("sliders").style.display="none";
-document.getElementById("body-content").style.display="none";
-document.getElementById("aboutus").style.display="none";
-document.getElementById("referenceletter").style.display="none";
-document.getElementById("resume").style.display="block";
-document.getElementById("contact1").style.display="none";
-document.getElementById("contact2").style.display="none";
-if(opened===1){document.getElementById("nav-main").style.height="0";
-document.getElementById("nav-main").style.visibility="hidden";
-}
-
-}
-
-function contact(){
-    document.getElementById("sliders").style.display="none";
-    document.getElementById("popups").style.display="none";
-    document.getElementById("body-content").style.display="none";
-    document.getElementById("aboutus").style.display="none";
-    document.getElementById("referenceletter").style.display="none";
-    document.getElementById("resume").style.display="none";
-    document.getElementById("contact1").style.display="block";
-    document.getElementById("contact2").style.display="block";
-    if(opened===1){document.getElementById("nav-main").style.height="0";
-    document.getElementById("nav-main").style.visibility="hidden";
-}
-}*/
-
-
 var opened=0;
 
 function openmenu1(){
@@ -198,109 +122,107 @@ function openp6(){
 
  }
 
-/*function academy(){
-    document.getElementById("sliders").style.display="none";
-    document.getElementById("aboutus").style.display="none";
-    document.getElementById("referenceletter").style.display="none";
-    document.getElementById("resume").style.display="none";
-    document.getElementById("contact1").style.display="none";
-    document.getElementById("contact2").style.display="none";
-    document.getElementById("main-content").style.display="none";
-    document.getElementById("sidebar-homepage-right").style.display="none";
-    document.getElementById("intro-principal1").style.display="none";
-    document.getElementById("intro1").style.display="initial";
-    document.getElementById("intro2").style.display="initial"
-    document.getElementById("intro3").style.display="initial"
-    document.getElementById("intro4").style.display="initial"
-}
-*/
+var refmekko1=0;
 function refmekko(){
-    document.getElementById("hidehide").style.display="flex";
-    document.getElementById("hidehidep").style.display="block";
-    document.getElementById("refmekko").style.display="none";
-    document.getElementById("refmekkoc").style.display="initial";
-    event.preventDefault();
+    if(refmekko1===0){
+        refmekko1+=1;
+        document.getElementById("hidehide").style.display="flex";
+        document.getElementById("hidehidep").style.display="block";
+        document.getElementById("refmekko").style.display="none";
+        document.getElementById("refmekkoc").style.display="initial";
+    }
+
+    else{
+        refmekko1=0;
+        document.getElementById("hidehide").style.display="none";
+        document.getElementById("hidehidep").style.display="none";
+        document.getElementById("refmekko").style.display="initial";
+        document.getElementById("refmekkoc").style.display="none";
+
+    }
 }
 
-function refmekkoc(){
-    document.getElementById("hidehide").style.display="none";
-    document.getElementById("hidehidep").style.display="none";
-    document.getElementById("refmekko").style.display="initial";
-    document.getElementById("refmekkoc").style.display="none";
-    event.preventDefault();
-}
-
+var refmekol1=0;
 function refmekol(){
-    document.getElementById("accordion1").style.display="initial";
-    document.getElementById("refmekol").style.display="none";
-    document.getElementById("refmekolc").style.display="initial";
-    event.preventDefault();
+    if(refmekol1===0){
+        refmekol1+=1;
+        document.getElementById("accordion1").style.display="initial";
+        document.getElementById("refmekol").style.display="none";
+        document.getElementById("refmekolc").style.display="initial";
+    }
+    else{
+        refmekol1=0;
+        document.getElementById("accordion1").style.display="none";
+        document.getElementById("refmekol").style.display="initial";
+        document.getElementById("refmekolc").style.display="none";
+
+    }
 }
 
-function refmekolc(){
-    document.getElementById("accordion1").style.display="none";
-    document.getElementById("refmekol").style.display="initial";
-    document.getElementById("refmekolc").style.display="none";
-    event.preventDefault();
-}
-
-
+var refletil1=0;
 function refletil(){
-    document.getElementById("accordion2").style.display="initial";
-    document.getElementById("refletil").style.display="none";
-    document.getElementById("refletilc").style.display="initial";
-    event.preventDefault();
+    if(refletil1===0){
+        refletil1+=1;
+        document.getElementById("accordion2").style.display="initial";
+        document.getElementById("refletil").style.display="none";
+        document.getElementById("refletilc").style.display="initial";    
+    }
+
+    else{
+        refletil1=0;
+        document.getElementById("accordion2").style.display="none";
+        document.getElementById("refletil").style.display="initial";
+        document.getElementById("refletilc").style.display="none";    
+    }
 }
 
-function refletilc(){
-    document.getElementById("accordion2").style.display="none";
-    document.getElementById("refletil").style.display="initial";
-    document.getElementById("refletilc").style.display="none";
-    event.preventDefault();
-}
-
+var ozharef1=0;
 function ozharef(){
-    document.getElementById("accordion3").style.display="initial";
-    document.getElementById("ozharef").style.display="none";
-    document.getElementById("ozharefc").style.display="initial";
-    event.preventDefault();
+    if(ozharef1===0){
+        ozharef1+=1;
+        document.getElementById("accordion3").style.display="initial";
+        document.getElementById("ozharef").style.display="none";
+        document.getElementById("ozharefc").style.display="initial";
+    }
+    else{
+        ozharef1=0;
+        document.getElementById("accordion3").style.display="none";
+        document.getElementById("ozharef").style.display="initial";
+        document.getElementById("ozharefc").style.display="none";
+    }
 }
 
-function ozharefc(){
-    document.getElementById("accordion3").style.display="none";
-    document.getElementById("ozharef").style.display="initial";
-    document.getElementById("ozharefc").style.display="none";
-    event.preventDefault();
-}
-
+var cvile1=0;
 function cvile(){
-    document.getElementById("accordion4").style.display="initial";
-    document.getElementById("cvile").style.display="none";
-    document.getElementById("cvilec").style.display="initial";
-    event.preventDefault();
+    if(cvile1===0){
+        cvile1+=1;
+        document.getElementById("accordion4").style.display="initial";
+        document.getElementById("cvile").style.display="none";
+        document.getElementById("cvilec").style.display="initial";    
+    }
+    else{
+        cvile1=0;
+        document.getElementById("accordion4").style.display="none";
+        document.getElementById("cvile").style.display="initial";
+        document.getElementById("cvilec").style.display="none";
+    }
 }
 
-function cvilec(){
-    document.getElementById("accordion4").style.display="none";
-    document.getElementById("cvile").style.display="initial";
-    document.getElementById("cvilec").style.display="none";
-    event.preventDefault();
-}
-
+var ozsu1=0;
 function ozsu(){
-    document.getElementById("accordion5").style.display="initial";
-    document.getElementById("ozsu").style.display="none";
-    document.getElementById("ozsuc").style.display="initial";
-    event.preventDefault();
+    if(ozsu1===0){
+        ozsu1+=1;
+        document.getElementById("accordion5").style.display="initial";
+        document.getElementById("ozsu").style.display="none";
+        document.getElementById("ozsuc").style.display="initial";
+    }
+    else{
+        ozsu1=0;
+        document.getElementById("accordion5").style.display="none";
+        document.getElementById("ozsu").style.display="initial";
+        document.getElementById("ozsuc").style.display="none";
+    }
 }
-
-function ozsuc(){
-    document.getElementById("accordion5").style.display="none";
-    document.getElementById("ozsu").style.display="initial";
-    document.getElementById("ozsuc").style.display="none";
-    event.preventDefault();
-}
-
 
 function editing1(){
     document.getElementById("reso11").style.display="none";

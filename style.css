@@ -13,9 +13,11 @@ body{
     font-family: 'Open Sans', sans-serif;
     display: block;
     margin:auto;
+    padding: 0;
     font-size: 1.6rem;
-    max-width: 100%;
+    width: 100%;
     min-width: 32rem;
+    height: 100vh;
 }
 
 #header{
@@ -24,9 +26,10 @@ body{
     align-items: center;
     background-color: #f3f3f3;
     height: 11rem;
-    max-width:150rem;
+    max-width:180rem;
     padding: 0 10rem;
-    }
+    margin: auto;
+}
 
 #header a {
     text-decoration: none;
@@ -109,7 +112,7 @@ body{
     margin:auto;
     padding-top:13%;
     width: 100%;
-    max-width: 150rem;
+    max-width: 180rem;
     min-width: 35rem;
 }
 
@@ -137,7 +140,7 @@ body{
         display:block;
         margin:auto;
         width:100%;
-        max-width: 150rem;
+        max-width: 180rem;
     }
     
     #slidemain{
@@ -154,27 +157,8 @@ body{
        width: 500%;
        right: 0;
        transition: 1s;
-/*       animation: slide 15s infinite;
-       -webkit-transition: 1s;
-       -moz-transition: 1s;
-       -ms-transition: 1s;
-       -o-transition: 1s;
-       -webkit-animation: slide 15s infinite;*/
 }
 
-/*@keyframes slide {
-    0% {right:0%}
-    15%{right:0%}
-    20% {right:100%}
-    35% {right:100%}
-    40% {right:200%}
-    55% {right:200%}
-    60% {right:300%}
-    75% {right:300%}
-    80% {right:400%}
-    95% {right:400%}
-    100% {right:0%}
-}*/
 
     .divslider > img{
 
@@ -260,7 +244,8 @@ body{
 #body-content{
     display:flex;
     flex-wrap:wrap;
-    max-width: 150rem;
+    max-width: 180rem;
+    margin:auto;
 }
 
 #main-content{
@@ -380,7 +365,7 @@ p .part2 {
         margin: auto;
         padding:0;
         width: 80%;
-        max-width: 150rem;
+        max-width: 180rem;
     }
 
 
@@ -454,7 +439,6 @@ p .part2 {
     width: 80%;
     font-size: 1.5rem;
     color: black;
-    margin-bottom: 12rem;
 }
 
 
@@ -509,8 +493,9 @@ p .part2 {
     align-items: center;
     font-size: 2rem;
     padding: 2rem;
+    cursor: pointer;
 }
-.title-event a{
+.title-event span{
     text-decoration: none;
     color: inherit;
     padding: 1rem;
@@ -768,9 +753,10 @@ hr{
     font-size: 1.4rem;
 }
 
-footer{
-    position: relative;;
-    bottom:0 !important
+#main-footer{
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 
 #footer-copyright{
@@ -780,8 +766,6 @@ footer{
     padding:1rem;
     display:block;
     text-align: center;
-    position: relative;
-
 }
 
 #footer-copyright-content{
@@ -813,11 +797,15 @@ footer{
     }
 #nav-footer li a{
     padding:0em 1.2rem;
-    text-decoration: none;
-    font-size: 1rem;
+    text-decoration: none;  
     color:white;
     text-align: center;
 }
+
+#text-copyright{
+    color:white;
+}
+
 
 @media screen and (max-width:1080px){
 
@@ -1199,6 +1187,7 @@ padding: 1rem 0;
         font-size: 2.5vw;  
     }
     
+
  
 #footer-copyright img{
     display: block;
@@ -1223,7 +1212,7 @@ padding: 1rem 0;
         padding-left: 0;   
     }
 
-    #nav-footer li a{
+    #nav-footer li a{   
         font-size: 3vw;
     }
     
@@ -1235,7 +1224,7 @@ padding: 1rem 0;
 }
 
 #aboutus, #referenceletter, #resume, #contact1, #contact2{
-    max-width: 150rem;   
+    max-width: 180rem;   
 }
 
 #popups, #pop1, #pop2, #pop3,#pop4,#pop5,#pop6, #pop7, #refmekkoc, #hidehide, #hidehidep, #refmekolc, #accordion1, #refletilc, #accordion2,
