@@ -623,9 +623,6 @@ hr{
 
 /*RESUME*/
 
-#resume{
-    margin-bottom:12rem
-}
 
 #resume h2{
     padding:1rem 0;
@@ -753,7 +750,7 @@ hr{
     font-size: 1.4rem;
 }
 
-#main-footer, #mainfooterref    {
+#main-footer {
     display: block;
     margin: auto;
     width: 100%;
@@ -1187,17 +1184,6 @@ padding: 1rem 0;
         font-size: 2.5vw;  
     }
     
-
-    #main-footer{
-    position:relative !important;
-    bottom: 0 !important;
-    }
-
-    #main-footerref{
-        position:absolute !important;
-        bottom: 0 !important;
-        }
-
         
     #footer-copyright img{
     display: block;
@@ -1241,4 +1227,8 @@ padding: 1rem 0;
 #ozharefc, #accordion3, #cvilec,
 #accordion4, #ozsuc, #accordion5 {
     display:none
+}
+
+#aboutus, #referenceletter, #resume {
+    min-height: 70vh;
 }
