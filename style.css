@@ -753,7 +753,7 @@ hr{
     font-size: 1.4rem;
 }
 
-#main-footer{
+#main-footer, #mainfooterref    {
     display: block;
     margin: auto;
     width: 100%;
@@ -1188,8 +1188,18 @@ padding: 1rem 0;
     }
     
 
- 
-#footer-copyright img{
+    #main-footer{
+    position:relative !important;
+    bottom: 0 !important;
+    }
+
+    #main-footerref{
+        position:absolute !important;
+        bottom: 0 !important;
+        }
+
+        
+    #footer-copyright img{
     display: block;
     margin:auto;
     width: 40vw;
