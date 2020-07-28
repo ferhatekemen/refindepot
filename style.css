@@ -376,7 +376,7 @@ p .part2 {
     
 
 #title-principal{
-    background-color: #f3f3 f3;
+    background-color: #f3f3f3;
     padding: 1.4rem 0;
     font-size: 2rem;
     font-weight: 300;
@@ -803,6 +803,12 @@ hr{
     color:white;
 }
 
+#aboutus, #referenceletter, #resume {
+    min-height: 70vh;
+    margin-top: 2rem;
+}
+
+
 
 @media screen and (max-width:1080px){
 
@@ -1217,6 +1223,11 @@ padding: 1rem 0;
     font-size: 2vw;
     color:white
 }
+
+#aboutus, #referenceletter, #resume {
+    min-height: 65vh;
+}
+
 }
 
 #aboutus, #referenceletter, #resume, #contact1, #contact2{
@@ -1229,6 +1240,3 @@ padding: 1rem 0;
     display:none
 }
 
-#aboutus, #referenceletter, #resume {
-    min-height: 70vh;
-}
