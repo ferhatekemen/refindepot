@@ -815,7 +815,7 @@ hr{
 
 
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:800px){
 
     #header{
         display: flex;
