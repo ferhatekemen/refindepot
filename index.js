@@ -224,63 +224,33 @@ function ozsu(){
     }
 }
 
-var edited1=0;
 function editing1(){
-    if(edited1===0){
         document.getElementById("reso11").style.display="none";
         document.getElementById("reso111").style.display="initial";
-        edited+=1;
-    }
-    else{
-        document.getElementById("reso11").style.display="initial";
-        document.getElementById("reso111").style.display="none"
-        edited1=0;
-    }
 }
 
 function editing1c(){
     document.getElementById("reso111").style.display="none";
     document.getElementById("reso11").style.display="initial";
-    edited1=0;
 }
 
-var edited2=0;
 function editing2(){
-    if(edited2===0){
     document.getElementById("reso222").style.display="initial";
     document.getElementById("reso22").style.display="none";
-    edited2+=1;
-}
-    else{
-        document.getElementById("reso22").style.display="initial";
-        document.getElementById("reso222").style.display="none";    
-        edited2=0;
     }
-}
 
 function editing2c(){
     document.getElementById("reso22").style.display="initial";
     document.getElementById("reso222").style.display="none";
-    edited2=0;
 }
 
 
-var edited3=0;
 function editing3(){
-    if(edited3===0){
     document.getElementById("reso33").style.display="none";
     document.getElementById("reso333").style.display="initial";
-    edited3+=1;
-}
-    else{
-        document.getElementById("reso33").style.display="initial";
-        document.getElementById("reso333").style.display="none";
-        edited3=0;
-    }
-}
+ }
 
 function editing3c(){
     document.getElementById("reso33").style.display="initial";
-    document.getElementById("reso333").style.display="none"
-    edited3=0;
+    document.getElementById("reso333").style.display="none";
 }

@@ -219,7 +219,7 @@ body{
 .popup h3{
     text-align: center;
     color:white;
-    margin-top:-3.2rem;
+    margin-top:-4rem;
     margin-bottom: 1rem;
     padding:0;
     font-size: 2rem;
@@ -235,10 +235,11 @@ body{
 
 .pop7 {
    float: right;
-   margin-right: 2rem;
-   margin-top: -.8rem;
+   margin-right: 1rem;
+   margin-top: -1rem;
    cursor: pointer;
    font-size: 3rem;
+   color:lightgray
 }
 
 
@@ -265,12 +266,11 @@ body{
     margin-left:-20%;
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
 }
 
 .testimonial-title img{
     padding-left: 0.5rem;
-    width: 80px;
+    height: 60px;
 }
 
 p {
@@ -693,8 +693,10 @@ hr{
 
 #kisiler div{
     display:flex;
+    flex-direction: column;
     margin:.2rem;
     padding: .5rem;
+    -ms-flex-direction: column;
 }
 
 #kisiler .kisi{
@@ -710,9 +712,11 @@ hr{
 #kisiler .bilgi{
     display:flex;
     flex-wrap: nowrap;
+    flex-direction: row;
+    -ms-flex-direction: row;
     align-items: center;
     position: absolute;
-    margin-left: 60rem;
+    margin-left: 40%;
     margin-top: .5rem;
 }
 
@@ -945,33 +949,18 @@ font-size: 1.2rem}
 .popup{
     display: block;
     margin:auto;
-    width:60%;
+    width:80%;
     left: 20%;
     border-top: 6rem solid #7a1733;
     border-bottom: 6rem solid #7a1733;
 }
 
-.popup h3{
-    text-align: center;
-    color:white;
-    margin-top:-5vw;
-    margin-bottom: 1.5vw;
-    padding:0;
-}
 
 .popup p{
     padding: 1em;
     background-color: white;
     color:black;
 }
-
-.pop7 {
-    float: right;
-    margin-right: 2rem;
-    margin-top: -.5rem;
-     cursor: pointer;
-    font-size: 3rem;}
- 
 
     #body-content{
     flex-direction: column;
@@ -985,7 +974,7 @@ font-size: 1.2rem}
     }
 
     .testimonial-title{
-        padding-left:27%
+        padding-left:22%
     }
 
     p .part1, p .part2{
@@ -1186,6 +1175,9 @@ padding: 1rem 0;
 
     #kisiler .bilgi{
         margin-left: 50%;
+        flex-direction: row;
+        position: relative;
+        margin:unset
     }
 
     #footer-copyright img{
