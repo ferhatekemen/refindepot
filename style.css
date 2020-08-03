@@ -38,7 +38,7 @@ body{
 
 #header a {
     text-decoration: none;
-    color:#7a1632;
+    color:#7a1733;
     font-weight: 6  00;
     font-size:1.4rem
 }    
@@ -173,7 +173,7 @@ body{
 
     .slider-text{
         position: absolute;
-        background-color: #7a1934 ;
+        background-color: #7a1733 ;
         width:45%;
         min-width: 25rem;
         max-width: 60rem;
@@ -216,8 +216,8 @@ body{
     margin:auto;
     width:60%;
     left: 20%;
-    border-top: 4rem solid #7a1934;
-    border-bottom: 4rem solid #7a1934;
+    border-top: 4rem solid #7a1733;
+    border-bottom: 4rem solid #7a1733;
 }
 
 .popup h3{
@@ -344,7 +344,7 @@ p .part2 {
     width: 6vw;
     border:.25rem solid #fff;
     border-radius: 50%;
-    box-shadow: 0 0 0 .4rem #7a1632;
+    box-shadow: 0 0 0 .4rem #7a1733;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -390,7 +390,7 @@ p .part2 {
 }
 
 .title-principal{
-    background-color: #7a1632;
+    background-color: #7a1733;
     height: 3.5rem;
     padding-top:1.5rem;
     font-size: 2rem;
@@ -448,7 +448,7 @@ p .part2 {
 
 
 #aboutus h2{
-    color:#7a1632;
+    color:#7a1733;
     margin:1.5rem 0
 }
 
@@ -554,7 +554,7 @@ font-size: 1.5rem;
 
 .panel-event-info{
     min-height: 8rem;
-    background-color: #7a1632;
+    background-color: #7a1733;
     color:white;
     width: 100%;
     font-size: 1.5rem;
@@ -576,7 +576,7 @@ font-size: 1.5rem;
 }
 
 #section1, #section4{
-    background-color: #7a1934;
+    background-color: #7a1733;
     margin:1.5rem 0;
     color:white;
     border-radius: 1rem;
@@ -667,7 +667,7 @@ hr{
 }
 
 #iletisim h2{
-    color:#7a1632
+    color:#7a1733;
 }
 
 #iletisim #data{
@@ -728,7 +728,7 @@ hr{
 }
 
 .altbilgi h2{
-    color: #7a1632;
+    color: #7a1733;
 }
 
 .altbilgi div{
@@ -750,7 +750,7 @@ hr{
 
 #blur-top a{
     text-decoration: none;
-    color:#7a1632;
+    color:#7a1733;
     font-weight: bold;
     font-size: 1.4rem;
 }
@@ -762,7 +762,7 @@ hr{
 }
 
 #footer-copyright{
-    background-color: #7a1632;
+    background-color: #7a1733;
     color:white;
     height: auto;
     padding:1rem;
@@ -848,6 +848,7 @@ hr{
 
     #right-side #slogan{
         display:none;
+        font-size: 1.2rem;
     }
   
     #nav{
@@ -934,8 +935,8 @@ font-size: 1.2rem}
     margin:auto;
     width:60%;
     left: 20%;
-    border-top: 6rem solid #7a1934;
-    border-bottom: 6rem solid #7a1934;
+    border-top: 6rem solid #7a1733;
+    border-bottom: 6rem solid #7a1733;
 }
 
 .popup h3{
@@ -1054,7 +1055,7 @@ font-size: 1.2rem}
 }
 
 .title-principal{
-    background-color: #7a1632;
+    background-color: #7a1733;
     height: unset;
     padding:1vw;
     font-size: 3vw;
@@ -1066,7 +1067,7 @@ font-size: 1.2rem}
 
 #content-principal > p{
     padding: 4rem;
-    font-size: 2vw;
+    font-size: 1.6rem;
     line-height: 1.5;
 }
 
@@ -1141,7 +1142,7 @@ padding: 1rem 0;
 
 .panel-event-info{
     min-height: 8rem;
-    background-color: #7a1632;
+    background-color: #7a1733;
     color:white;
     width: 100%;
     font-size: 3vw;
