@@ -24,7 +24,7 @@ body{
     display: block;
     margin: auto;
     width: 100%;
-    background-color: #f3f3f3;}
+    background-color: #e5e5e6;}
 
 #header{
     display:flex;
@@ -32,14 +32,14 @@ body{
     align-items: center;
     height: 13rem;
     max-width:180rem;
-    padding: 0 10rem;
+    padding: 0;
     margin: auto;
 }
 
 #header a {
     text-decoration: none;
     color:#7a1733;
-    font-weight: 6  00;
+    font-weight: 600;
     font-size:1.4rem
 }    
 
@@ -260,8 +260,8 @@ body{
 }
 
 .testimonial-title{
-    background-color: #f3f3f3;
-    color:#1b181c;
+    background-color: #e5e5e6;
+    color:#000;
     font-size: 32px;
     font-weight: bold;
     padding:1rem;
@@ -317,7 +317,7 @@ p .part2 {
 }
 
 #nav-sidebar{
-    background-color: #f3f3f3;
+    background-color: #e5e5e6;
     padding: 1rem;
     margin-top: 7%;
     border-radius: .5rem;
@@ -362,7 +362,7 @@ p .part2 {
 
 
 .title-nav-sidebar{
-    color: #A42347;
+    color: #7A1733;
     font-size: 1.6rem;
     }
 
@@ -381,7 +381,7 @@ p .part2 {
     
 
 #title-principal{
-    background-color: #f3f3f3;
+    background-color: #E5E5E6;
     padding: 1.4rem 0;
     font-size: 2rem;
     font-weight: 300;
@@ -409,7 +409,7 @@ p .part2 {
 
 .comment-link{
     text-decoration: none;
-    color: #1b181c;
+    color: #000;
     display:flex;
     align-items: center;
     font-weight: 600;
@@ -479,12 +479,12 @@ p .part2 {
     display: flex;
     justify-content: center;
     padding: 1.5rem 0;
-    background-color: #f0f0f0;
+    background-color: #e5e5e6;
     margin:1.5rem 0
 }
 
 #triangle{
-    background-color:#f0f0f0;
+    background-color:#e5e5e6;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -603,7 +603,7 @@ hr{
 }
 
 #section2, #section3, #section5{
-    background-color: #f0f0f0;
+    background-color: #e5e5e6;
     margin:1.5rem 0;
     line-height: 1.5;
     border-radius: 1rem;
@@ -828,17 +828,19 @@ hr{
     #header img{
         margin-top:3rem;
         width: 40vw;
+        max-width: 20rem;
     }
 
     #header a{
-        font-size: 12px;
-        padding: 0 1rem;
-    }
+        font-size: 1.2rem;
+        padding: 0;
+        font-weight: 400;    }
 
     #right-side ul{
         display: flex;
         flex-wrap: nowrap;
-        padding: 2rem;
+        justify-content: center;
+        padding: 0;
     }
 
     #right-side ul li{
@@ -846,13 +848,14 @@ hr{
     }
 
 
-    #right-side #slogan{
-        display:none;
+    #slogan{
         font-size: 1.2rem;
+        margin-top: unset;
+        text-align: center;
     }
   
     #nav{
-        background-color: #A42347;
+        background-color: #7a1733;
         display: block;
 }
     
@@ -883,7 +886,7 @@ hr{
     }
 
     #nav-main li{
-        padding: 1.5rem 0;
+        padding: 1.3rem 0;
         font-size: 1.4rem;
     }
 
