@@ -30,7 +30,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 11rem;
+    height: 13rem;
     max-width:180rem;
     padding: 0 10rem;
     margin: auto;
@@ -822,7 +822,7 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 16rem;
+        
     }
 
     #header img{
@@ -872,7 +872,7 @@ hr{
         display:flex;
         padding: 1rem;
         font-weight: bold;
-        font-size: 3.5vw;
+        font-size: 17px;
     }
 
   
