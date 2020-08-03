@@ -32,7 +32,7 @@ body{
     align-items: center;
     height: 13rem;
     max-width:180rem;
-    padding: 0;
+    padding: 0 10rem;
     margin: auto;
 }
 
@@ -449,7 +449,7 @@ p .part2 {
 
 #aboutus p{
     color:black;
-    line-height: 1.5;
+    line-height: 1.3em;
 }
 
 #aboutus li{
@@ -492,7 +492,7 @@ p .part2 {
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     cursor: pointer;
 }
 .title-event span{
@@ -523,8 +523,8 @@ p .part2 {
     padding: 1rem 0;
     text-align: center;
     display: inline;
-    color:#1b181c;
-    font-size: 2rem;
+    color:#333;
+    font-size: 16px;
 }
 
 
@@ -543,7 +543,7 @@ p .part2 {
 .event-container p{
 text-align: center;
 height: 5rem;
-font-size: 1.5rem;
+font-size: 1.4rem;
 }
 
 
@@ -565,7 +565,7 @@ font-size: 1.5rem;
 }
 
 #hidehidep{
-    font-size:1.6rem;
+    font-size:1.7rem;
     padding: 1.5rem;
     text-align: center;
 }
@@ -583,13 +583,13 @@ font-size: 1.5rem;
 
 #section1 h4, #section4 h4{
     margin:1rem;
-    padding: 1rem;
+    padding: .5rem;
     font-weight: normal;
 }
 
 #section1 h5, #section4 h5{
-
-    padding: 1rem 3rem;
+    padding: 0 3rem;
+    padding-bottom: 1rem;
 }
 
 hr{
@@ -619,12 +619,14 @@ hr{
 
 .content-event > p, .content-event > ul, .content-event > ol{
     padding:1rem 2rem;
+    color: #7b7b77;
 }
 
 /*RESUME*/
 
 
 #resume h2{
+    font-size: 21px;
     padding:1rem 0;
     text-align: center;
 }
@@ -658,11 +660,13 @@ hr{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding:1rem 1rem 0.5rem 1rem
     
 }
 
 #iletisim h2{
     color:#7a1733;
+    font-size: 21px;
 }
 
 #iletisim #data{
@@ -676,12 +680,11 @@ hr{
 #data div{
     display: flex;
     align-items: center;
-    padding: 1rem;
 }
 
 #data img{
-    height: 3rem;
-    padding-right: .5rem;
+    height: 25px;
+    padding-left:0.5rem;
 }
 
 #map{
@@ -701,6 +704,7 @@ hr{
 
 .kisi h2{
     margin-bottom: .5rem;
+    font-size: 21px;
 }
 
 #kisiler .bilgi{
@@ -713,8 +717,8 @@ hr{
 }
 
 .bilgi img, .altbilgi img{
-    height: 3rem;
-    width: 3rem;
+    height: 35px;
+    width: 35px;
     padding-right: 0.5rem;
 }
 
@@ -724,6 +728,7 @@ hr{
 
 .altbilgi h2{
     color: #7a1733;
+    font-size: 21px;
 }
 
 .altbilgi div{
@@ -822,12 +827,11 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        padding: 0;   
     }
 
     #header img{
         margin-top:3rem;
-        width: 40vw;
         max-width: 20rem;
     }
 
@@ -953,14 +957,12 @@ font-size: 1.2rem}
     margin-top:-5vw;
     margin-bottom: 1.5vw;
     padding:0;
-    font-size: 3vw;
 }
 
 .popup p{
     padding: 1em;
     background-color: white;
     color:black;
-    font-size: 3vw;
 }
 
 .pop7 {
@@ -1065,18 +1067,18 @@ font-size: 1.2rem}
 
 .title-principal{
     background-color: #7a1733;
-    height: unset;
-    padding:1vw;
-    font-size: 3vw;
+    padding:8px;
+    font-size: 20px;
     margin-top: 14px;
     text-align: center;
+    height: unset;
 }
 
 
 
 #content-principal > p{
     padding: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -1140,14 +1142,13 @@ font-size: 1.2rem}
 .event-container img{
     display: block;
     margin:auto;
-    width:100%;
+    width:70%;
 }
 
 
 .event-container p{
 text-align: center;
 height: unset;
-font-size: 3vw;
 padding: 1rem 0;
 }
 
@@ -1156,7 +1157,6 @@ padding: 1rem 0;
     background-color: #7a1733;
     color:white;
     width: 100%;
-    font-size: 3vw;
     padding:0;
     height: auto;
 }
@@ -1168,19 +1168,9 @@ padding: 1rem 0;
     
 
     .title-event{
-        font-size:4vw;
+        font-size:20px;
     }
 
-
-
-    .content-event h4{
-        font-size: 2vw;
-    }
-
-    .event-container > h4{
-        font-size: 3.5vw;
-    }
-    
 
     #contact1, #contact2{
         display:block;
@@ -1190,7 +1180,6 @@ padding: 1rem 0;
 
 
     #kisiler{
-        font-size: 2vw;
         margin:1rem auto;
 
     }
@@ -1199,10 +1188,6 @@ padding: 1rem 0;
         margin-left: 50%;
     }
 
-    .altbilgi {
-        font-size: 2vw;
-    }    
-        
     #footer-copyright img{
     display: block;
     margin:auto;
@@ -1224,10 +1209,6 @@ padding: 1rem 0;
         padding:1rem 0;
         border:none;
         padding-left: 0;   
-    }
-
-    #nav-footer li a{   
-        font-size: 3vw;
     }
     
     #text-copyright{
