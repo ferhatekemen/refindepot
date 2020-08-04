@@ -853,7 +853,7 @@ hr{
     #right-side ul{
         display: flex;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: flex-end;
         padding: 0;
     }
 
