@@ -39,8 +39,8 @@ body{
 #header a {
     text-decoration: none;
     color:#7a1733;
-    font-weight: 600;
-    font-size:1.4rem
+    font-weight: 400;
+    font-size:1.2rem
 }    
 
 #header img{
@@ -170,7 +170,7 @@ body{
     .slider-text{
         position: absolute;
         background-color: #7a1733 ;
-        width:45%;
+        width:50vw;
         min-width: 25rem;
         max-width: 60rem;
         margin:1.2% 0 0 2%;
@@ -187,10 +187,12 @@ body{
 
 .slider-text > span {
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .slider-text > p{
     color:white;
+    font-size: 15px;
 }
 
 
@@ -219,7 +221,7 @@ body{
 .popup h3{
     text-align: center;
     color:white;
-    margin-top:-4rem;
+    margin-top:-3rem;
     margin-bottom: 1rem;
     padding:0;
     font-size: 2rem;
@@ -331,7 +333,7 @@ p .part2 {
     display: flex;
     flex-wrap: nowrap;
     text-decoration: none;
-    padding-top:1rem;
+    padding-bottom:3rem;
 }
 
 
@@ -351,7 +353,6 @@ p .part2 {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 1.5rem;
-    padding-top: 1rem;
     font-size:14px;
 }
 
@@ -371,13 +372,13 @@ p .part2 {
 
     .static-page1{
         margin: auto;
-        padding:14px;
+        padding:14px 0;
     }
     
 
 #title-principal{
     background-color: #E5E5E6;
-    padding: 1.4rem 0;
+    padding: 10px 0;
     font-size: 2rem;
     font-weight: 300;
     margin-top: 1.4rem;
@@ -386,20 +387,25 @@ p .part2 {
 
 .title-principal{
     background-color: #7a1733;
-    height: 3.5rem;
-    padding-top:1.5rem;
+    min-height: 3.5rem;
     font-size: 2rem;
+    padding: 8px;
     font-weight: 300;
-    margin-top: 1.4rem;
     padding-left: 40rem;
     color:white;
 }
 
 #content-principal > p{
-    padding: 4rem;
+    padding: 1rem;
     color:#7b7b7b;
     font-size: 1.5rem;
     line-height: 1.5;
+    font-weight: 400;
+}
+
+#yesilbina{
+    float:left;
+    height: 200px;
 }
 
 .comment-link{
@@ -835,14 +841,12 @@ hr{
     }
 
     #header img{
-        margin-top:3rem;
-        max-width: 20rem;
+        max-width: 25rem;
     }
 
     #header a{
-        font-size: 1.2rem;
         padding: 0;
-        font-weight: 400;    }
+}
 
     #right-side ul{
         display: flex;
@@ -852,7 +856,7 @@ hr{
     }
 
     #right-side ul li{
-        margin:1rem
+        margin:.5rem
     }
 
 
@@ -921,20 +925,12 @@ hr{
     }
 
     .slider-text{
-        width:11%;
+        width:14%;
         min-width: 25rem;
         max-width: 19%;
-        margin:.4% 0 0 1.6%;
+        margin:.1% 0 0 2.1%;
         line-height: 1.1;
 }    
-.slider-text span{
-font-size:2rem;
-}
-
-
-.slider-text > p{
-font-size: 1.2rem}
-
 
 #popups{
     position: fixed;
@@ -942,7 +938,7 @@ font-size: 1.2rem}
     display:block;
     width: 100%;
     height: 100%;
-    padding-top:25vh;
+    padding-top:10%;
     background: transparent;
 }
 
@@ -955,6 +951,9 @@ font-size: 1.2rem}
     border-bottom: 6rem solid #7a1733;
 }
 
+.popup h3{
+margin-top: -4rem;
+}
 
 .popup p{
     padding: 1em;
@@ -1055,23 +1054,8 @@ font-size: 1.2rem}
 }
 
 .title-principal{
-    background-color: #7a1733;
     padding:8px;
-    font-size: 20px;
-    margin-top: 14px;
-    text-align: center;
-    height: unset;
-}
-
-
-
-#content-principal > p{
-    padding: 4rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    font-weight: 400;
-}
-
+    text-align: center;}
 
 #yarali {
     margin-top: unset;
@@ -1099,7 +1083,6 @@ font-size: 1.2rem}
     .static-page1, #intro-principal1 {
         width: 100%;
         margin: auto;
-        padding:0;
     }
 
 
@@ -1224,3 +1207,7 @@ padding: 1rem 0;
     display:none
 }
 
+@media screen and (max-width:500px){
+
+
+}
