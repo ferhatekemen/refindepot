@@ -828,7 +828,9 @@ hr{
     margin-top: 2rem;
 }
 
-
+.sliderp2{
+    display:none;
+}
 
 @media screen and (max-width:800px){
 
@@ -1207,7 +1209,21 @@ padding: 1rem 0;
     display:none
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
 
+    .sliderp1{
+        display: none;
+    }
+    .sliderp2{
+        display:block
+    }
+
+    .slider-text{
+        width:8%;
+        min-width: 25rem;
+        max-width: 19%;
+        margin:1% 0 0 2%;
+        line-height: 1.1;
+}    
 
 }
