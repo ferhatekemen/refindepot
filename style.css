@@ -108,6 +108,10 @@ body{
     font-size: 1.4rem;
 }
 
+#button-registration2{
+    display:none;
+}
+
 
 /*      SLIDER       */
 
@@ -908,6 +912,12 @@ hr{
         margin-left: 0;
         display: none; 
     }
+
+    #button-registration2{
+        display: inline;
+        margin-right: 130px; 
+    }
+
 
     #nav-main{
         height: 0;
