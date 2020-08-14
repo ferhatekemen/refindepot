@@ -337,7 +337,7 @@ p .part2 {
     display: flex;
     flex-wrap: nowrap;
     text-decoration: none;
-    padding-bottom:3rem;
+    padding:1.5rem 0;
 }
 
 
@@ -346,10 +346,10 @@ p .part2 {
     border:.25rem solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 .4rem #7a1733;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 #nav-sidebar li a div{
