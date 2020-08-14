@@ -346,10 +346,10 @@ p .part2 {
     border:.25rem solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 0 .4rem #7a1733;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 #nav-sidebar li a div{
