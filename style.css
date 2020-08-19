@@ -1229,10 +1229,10 @@ padding: 1rem 0;
     }
 
     .slider-text{
-        width:8%;
+        width:12%;
         min-width: 25rem;
         max-width: 19%;
-        margin:1% 0 0 2.4%;
+        margin:.5% 0 0 2.2%;
         line-height: 1.1;
 }    
 
