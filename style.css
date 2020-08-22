@@ -483,7 +483,7 @@ p .part2 {
 #videoc{
     display: block;
     max-width:100%;
-    padding: 1rem 0;
+    padding: 0;
     background-color: #e5e5e6;
     margin:auto auto 1rem auto;
     height:auto;
@@ -493,7 +493,7 @@ p .part2 {
 #videoclip{
     display:block;
     max-width: 95%;
-    height: auto;
+    max-height: 95%;
     margin:auto;
 }
 
