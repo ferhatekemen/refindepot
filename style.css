@@ -481,17 +481,19 @@ p .part2 {
 }
 
 #videoc{
-    display: flex;
-    justify-content: center;
+    display: block;
+    max-width:90%;
     padding: 1rem 0;
     background-color: #e5e5e6;
-    margin:0 0 1rem 0;
+    margin:auto auto 1rem auto;
     height:auto;
 }
 
 #videoclip{
-    width: 90%;
+    display:block;
+    max-width: 100%;
     height: auto;
+    margin:auto;
 }
 
 #triangle{
