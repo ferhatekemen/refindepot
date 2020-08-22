@@ -487,11 +487,12 @@ p .part2 {
     background-color: #e5e5e6;
     margin:auto auto 1rem auto;
     height:auto;
+    border-radius:1rem;
 }
 
 #videoclip{
     display:block;
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
     margin:auto;
 }
